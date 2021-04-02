@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="6" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Step 01 :: Open Url]]>
+    </line>
+    <line>
+      <![CDATA[Step 02 :: Verify Agosh Page Open Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Step 03 :: Click on Login Button]]>
+    </line>
+    <line>
+      <![CDATA[Step 04 :: Enter Buyer Email Address]]>
+    </line>
+    <line>
+      <![CDATA[Step 05 :: Enter Buyer Password]]>
+    </line>
+    <line>
+      <![CDATA[Step 06 :: Click on Login Button]]>
+    </line>
+    <line>
+      <![CDATA[Step 07 :: Verify Buyer Login Successfully!!!! ]]>
+    </line>
+    <line>
+      <![CDATA[Step 08 :: Click on Username]]>
+    </line>
+    <line>
+      <![CDATA[Step 09 :: Click on Logout Text]]>
+    </line>
+    <line>
+      <![CDATA[Step 10 :: Buyer User Logout Successfully!!! ]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40289" started-at="2021-04-01T15:12:19Z" finished-at="2021-04-01T15:13:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40289" started-at="2021-04-01T15:12:19Z" finished-at="2021-04-01T15:13:00Z">
+      <class name="Shopping.Agosh.Testsuit">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:Shopping.Agosh.Testsuit@3427b02d]" name="onBefore" is-config="true" duration-ms="13" started-at="2021-04-01T20:42:19Z" finished-at="2021-04-01T20:42:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onBefore -->
+        <test-method status="PASS" signature="Verify_to_Logout_of_Buyer()[pri:0, instance:Shopping.Agosh.Testsuit@3427b02d]" name="Verify_to_Logout_of_Buyer" duration-ms="40161" started-at="2021-04-01T20:42:19Z" finished-at="2021-04-01T20:42:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 01 :: Open Url]]>
+            </line>
+            <line>
+              <![CDATA[Step 02 :: Verify Agosh Page Open Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Step 03 :: Click on Login Button]]>
+            </line>
+            <line>
+              <![CDATA[Step 04 :: Enter Buyer Email Address]]>
+            </line>
+            <line>
+              <![CDATA[Step 05 :: Enter Buyer Password]]>
+            </line>
+            <line>
+              <![CDATA[Step 06 :: Click on Login Button]]>
+            </line>
+            <line>
+              <![CDATA[Step 07 :: Verify Buyer Login Successfully!!!! ]]>
+            </line>
+            <line>
+              <![CDATA[Step 08 :: Click on Username]]>
+            </line>
+            <line>
+              <![CDATA[Step 09 :: Click on Logout Text]]>
+            </line>
+            <line>
+              <![CDATA[Step 10 :: Buyer User Logout Successfully!!! ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_to_Logout_of_Buyer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Shopping.Agosh.Testsuit@3427b02d]" name="tearDown" is-config="true" duration-ms="98" started-at="2021-04-01T20:42:59Z" finished-at="2021-04-01T20:43:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Shopping.Agosh.Testsuit -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

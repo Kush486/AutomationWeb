@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Report" verbose="10" parallel="tests"
+    thread-count="1">
+    
+     <!-- Put IP of localhost/Grid Hub machine -->
+    <parameter name="selenium.host" value="localhost" />
+    
+    <!-- Put Port of localhost RC/Grid Hub machine -->
+    <parameter name="selenium.port" value="6666" />
+    
+    <!-- Put target browser name as below:  -->
+    <parameter name="selenium.browser" value="chrome" />
+    
+    <!-- @NOTE: 1) Un-comment <test> tag to run respective test. 2) Commentr
+     <test> tag to unrun respective test. -->
+    
+    <parameter name="selenium.url"
+    value="https://www.google.com/" />
+   
+   
+       
+     <!--  Test Case 01 :: Verify Login Details of Buyer -->
+    <test name="Verify Login Details of buyer">
+        <classes>
+            <class name="Shopping.Agosh.Testsuit">
+                <methods>
+                    <include name="Verify_Login_Details_of_buyer">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>  
+    
+      <!--  Test Case 02 :: Verify Login Details of Seller -->
+    <test name="Verify Login Details of Seller">
+        <classes>
+            <class name="Shopping.Agosh.Testsuit">
+                <methods>
+                    <include name="Verify_Login_Details_of_seller">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>  
+    
+      <!--  Test Case 03 :: Verify to Register New Account for Buyer -->
+    <test name="Verify to Register New Account for Buyer">
+        <classes>
+            <class name="Shopping.Agosh.Testsuit">
+                <methods>
+                    <include name="Verify_to_Register_New_Account_for_Buyer">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>  
+    
+     <!--  Test Case 04 :: Verify to Register New Account for Seller -->
+    <test name="Verify to Register New Account for Seller">
+        <classes>
+            <class name="Shopping.Agosh.Testsuit">
+                <methods>
+                    <include name="Verify_to_Register_New_Account_for_Seller">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>  
+    
+      <!--  Test Case 05 :: Verify to Logout of Buyer -->
+    <test name="Verify to Logout of Buyer">
+        <classes>
+            <class name="Shopping.Agosh.Testsuit">
+                <methods>
+                    <include name="Verify_to_Logout_of_Buyer">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>  
+    
+       <!--  Test Case 06 :: Verify to Logout of Seller -->
+    <test name="Verify to Logout of Seller">
+        <classes>
+            <class name="Shopping.Agosh.Testsuit">
+                <methods>
+                    <include name="Verify_to_Logout_of_Seller">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>  
+    
+      
+</suite>
